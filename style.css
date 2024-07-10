@@ -201,3 +201,57 @@ main .target .target-card-container:nth-child(2){
 main .target .target-card-container:nth-child(3){
     background-color: #fffdf2;
 }
+main .support{
+    max-width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: 
+    url('assets/handshake.jpg') no-repeat;
+    padding-top: 80px;
+}
+main .support{
+    
+}
+main .support-container{
+    
+}
+main .support-container .support-text-container{
+    color: #fff;
+    text-align: center;
+}
+main .support-container .support-text-container h2{
+    font-weight: 700;
+    font-size: 32px;
+}
+main .support-container .support-text-container p{
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 606px;
+    margin: 24px auto;
+    color: #c4bfbe;
+}
+
+main .support-container .support-input{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+main .support-container .support-input .input-box{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    padding: 0 24px;
+    border: none;
+
+}
+main .support-container .support-input button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    padding: 0 24px;
+   color: #0D1321;
+   border: none;
+   font-weight: 600;
+   font-size: 20px;
+}
