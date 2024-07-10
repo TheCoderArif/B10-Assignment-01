@@ -146,3 +146,58 @@ main .inspiration #video{
 main .inspiration #video iframe{
     border-radius: 16px;
 }
+main .target{
+    margin: 100px auto;
+    max-width: 1440px;
+    padding: 150px;
+}
+main .target .target-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+main .target .target-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 852px;
+    margin: 24px auto;
+}
+main .target .target-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+main .target .target-card-container{
+    max-width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+   
+}
+main .target .target-card-container h2{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+
+}
+main .target .target-card-container p{
+    color: #565861;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0;
+}
+main .target .target-card-container a{
+    text-decoration: underline;
+    color: #0D1321;
+    font-weight: 700;
+    font-size: 16px;
+}
+main .target .target-card-container:nth-child(2){
+    background-color: #004CE80D;
+}
+main .target .target-card-container:nth-child(3){
+    background-color: #fffdf2;
+}
